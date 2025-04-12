@@ -24,9 +24,9 @@ https://github.com/ikoyhn/go-podcast-sponsor-block/blob/main/README.md</Overview
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="config*" Target="/config" Default="/mnt/user/appdata/go-podcast-sponsor-block" Mode="rw" Description="This is where your config for this app will live. ex: mnt/user/appdata/go-podcast-sponsor-block" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/go-podcast-sponsor-block/</Config>
-  <Config Name="Youtube v3 API Key*" Target="GOOGLE_API_KEY" Default="" Mode="" Description="https://developers.google.com/youtube/v3/getting-started" Type="Variable" Display="always" Required="true" Mask="false">AIzaSyDa-BhXAfqvdPC_-aY0aKXeKk9C_dkeVYo</Config>
-  <Config Name="Port" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8082</Config>
+  <Config Name="config*" Target="/config" Default="/mnt/user/appdata/go-podcast-sponsor-block" Mode="rw" Description="This is where your config for this app will live. ex: mnt/user/appdata/go-podcast-sponsor-block" Type="Path" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Youtube v3 API Key*" Target="GOOGLE_API_KEY" Default="" Mode="" Description="https://developers.google.com/youtube/v3/getting-started" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Port" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false"></Config>
   <Config Name="TRUSTED HOSTS" Target="TRUSTED_HOSTS" Default="" Mode="" Description="OPTIONAL | List of approved hosts to call this app. Should be a list of hosts separated by a comma" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="TOKEN" Target="TOKEN" Default="" Mode="" Description="OPTIONAL | Optional parameter for securing the endpoints. Will need to add a query param to the calls with this value if set. Query param: ?token=" Type="Variable" Display="always" Required="false" Mask="false"/>
   <Config Name="CRON Schedule" Target="CRON" Default="" Mode="" Description="OPTIONAL | CRON is used to auto cleanup episode files that havent been accessed, default is set to run once every week." Type="Variable" Display="always" Required="false" Mask="false"/>
