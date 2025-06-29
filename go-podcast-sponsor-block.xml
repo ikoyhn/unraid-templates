@@ -2,17 +2,17 @@
 <Container version="2">
   <Name>Podcast-SponsorBlock-RSS</Name>
   <Repository>ikoyhn/go-podcast-sponsor-block</Repository>
-  <Registry>https://hub.docker.com/r/ikoyhn/go-podcast-sponsor-block</Registry>
+  <Registry>https://hub.docker.com/r/ikoyhn/clean-cast</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project>https://github.com/ikoyhn/go-podcast-sponsor-block/</Project>
+  <Project>https://github.com/ikoyhn/clean-cast/</Project>
   <Overview>This is a GO application that will take any podcast that is on Youtube and will generate a RSS feed with the audio only and all sponsored sections auto removed.&#xD;
 &#xD;
 View docs here&#xD;
-https://github.com/ikoyhn/go-podcast-sponsor-block/blob/main/README.md</Overview>
+https://github.com/ikoyhn/clean-cast/blob/main/README.md</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
