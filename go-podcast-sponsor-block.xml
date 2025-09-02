@@ -16,7 +16,7 @@ https://github.com/ikoyhn/clean-cast/blob/main/README.md</Overview>
   <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
-  <Icon>https://icon-library.com/images/podcast-icon-png/podcast-icon-png-0.jpg</Icon>
+  <Icon>https://raw.githubusercontent.com/ikoyhn/clean-cast/main/images/logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
